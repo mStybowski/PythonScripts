@@ -1,6 +1,12 @@
 # PythonScripts
 <b>Run</b><br>
 ```
-python3 generateMMG.py [*period in seconds]
+python3 generateMMG.py <optional_period_in_sec>
 ```
-*Period argument is optional*
+
+<b>Example</b>
+```
+python3 generateMMG.py 0.01
+```
+
+*Publishing data to topic <b>sensors/emg</b> at 100Hz*
